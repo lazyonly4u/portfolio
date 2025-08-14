@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +16,9 @@ body {
 /* Style the header */
 header {
   background-color:hsl(221, 54%, 26%);
-  padding: 15px;
+  padding: 20px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color:white;
 }
 
@@ -28,11 +27,12 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 23%;
-  height: 900px;
+  width: 25%;
+  height: 525px;
   background: hsl(221, 30%, 80%);
   padding: 15px;
 }
+
 
 /* Style the list inside the menu */
 nav ul {
@@ -49,7 +49,7 @@ article {
   padding: 20px;
   width: 75%;
   background-color: hsl(221, 38%, 97%);
-  height: 900px; 
+  height: 525px; 
 }
 
 /* Clear floats after the columns */
@@ -62,7 +62,7 @@ section::after {
 /* Style the footer */
 footer {
   background-color: hsl(221, 87%, 12%);
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: white;
 }
@@ -81,50 +81,44 @@ footer {
 
 
 <header>
-  <h2>Portfolio</h2>
+  <h2>Hi! Jeg hedder Tanushree Shrestha</h2>
 </header>
 
 <section>
   <nav>
   <img src="img_girl.jpg" alt="Girl in a jacket" style="width:175px;height:200px;">
+
+    <h1>Tanushree
+    Shrestha</h1>
+    <p>front and backend Programmer </p>
+    
     <ul>
       <li><a href="file:///C:/Users/tanshr/Documents/Tanu%20files/CV.html">CV</a></li>
       <li><a href="https://github.com/lazyonly4u">Github-profil</a></li>
       <li><a href="https://linkedin.com/in/tanushree-shrestha-790824303/">LinkedIn</a></li>
     </ul>
-    <h1>-Fakta- </h1>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <p>-Blah </p>
-    <img src="img_chania.jpg" alt="Flowers in Chania" style="width:175px;height:180px;">
+
   </nav>
   
   <article>
-    <h1>-Biografiske oplysninger-</h1>
-    <p>BlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, Blah, Blah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah.</p>
-    <p>BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah.</p>
+
+    <p style="font-size:160%;">I am an eager thinker, with an immense passion for creativity may it be in ways such as of problem solving or designing.</p>
+
     
-    <h1>-Karriereoversigt- </h1>
-    <p> BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah.p>
-    <p>BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah. </p>
+    <h1>-break- </h1>
+    <p> ⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ </p>
     
-    <h1>Liste over min færdigheder</h1>
-    <p>BlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, Blah, Blah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlah.</p> <p>BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah.</p>
-    <p>BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah, BlahBlahBlah. BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah.</p>
-    <p> BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah.p>
+    <h1>body</h1>
+    <p style="font-size:110%;">I am a programmer studying 'EUX Datatekniker specializing in programming' at TEC. I was originally from Nepal, but I am now a citizen of Denmark. When I was younger, I didn’t have a strong interest in IT. However, as I grew older, I realized how much our world relies on this field. My interest developed and continued to grow as I began reflecting on the past, present, and future—and how rapidly civilization is evolving. I want to be part of that progress. But it doesn’t stop there: I yearn to help and assist, whether in small or big ways. I aspire to create something—simple or complex—that is useful. Whether it's for entertainment or part of a larger project that drives change, I want to contribute.</p>
+
+
     
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>Find me on social media?</p>
+
 </footer>
 
 </body>
