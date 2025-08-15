@@ -1,125 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Times New Roman;
-}
-
-/* Style the header */
-header {
-  background-color:hsl(221, 54%, 26%);
-  padding: 20px;
-  text-align: center;
-  font-size: 30px;
-  color:white;
-}
-
-
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 25%;
-  height: 525px;
-  background: hsl(221, 30%, 80%);
-  padding: 15px;
-}
-
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-img {
-  width: 100%;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 75%;
-  background-color: hsl(221, 38%, 97%);
-  height: 525px; 
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: hsl(221, 87%, 12%);
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman"}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */.w3-sidebar {width: 200px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
 </head>
-<body>
+<body class="w3-black">
 
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class=" w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+<br>
+<br>
+<br>
+<br>
+      <a href="file:///C:/Users/tanshr/Documents/Tanu%20files/CV.html" style="font-size: 20px;" >CV</a>
+      <br>
+      <a href="https://github.com/lazyonly4u"style="font-size: 20px;">Github-profil</a>
+      <br>
+      <a href="https://linkedin.com/in/tanushree-shrestha-790824303/" style="font-size: 20px;">LinkedIn</a>
 
+</nav>
 
-<header>
-  <h2>Hi! Jeg hedder Tanushree Shrestha</h2>
-</header>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Hi! I'm</span> Tanushree Shrestha.</h1>
+    <p>Front and Backend Programmer.</p>
+    <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
 
-<section>
-  <nav>
-  <img src="img_girl.jpg" alt="Girl in a jacket" style="width:175px;height:200px;">
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Tanushree Shrestha</h2>
+    <hr style="width:200px" class="w3-opacity">
+        <p style="font-size:160%;">I am an eager thinker, with an immense passion for creativity may it be in ways such as of problem solving or designing.</p>
+        
+            <p> ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚</p>
 
-    <h1>Tanushree
-    Shrestha</h1>
-    <p>front and backend Programmer </p>
-    
-    <ul>
-      <li><a href="file:///C:/Users/tanshr/Documents/Tanu%20files/CV.html">CV</a></li>
-      <li><a href="https://github.com/lazyonly4u">Github-profil</a></li>
-      <li><a href="https://linkedin.com/in/tanushree-shrestha-790824303/">LinkedIn</a></li>
-    </ul>
-
-  </nav>
-  
-  <article>
-
-    <p style="font-size:160%;">I am an eager thinker, with an immense passion for creativity may it be in ways such as of problem solving or designing.</p>
-
-    
-    <h1>-break- </h1>
-    <p> ⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ ˚｡⋆୨୧ ⁺˚⋆｡°✩₊⋆ </p>
-    
-    <h1>body</h1>
+        
     <p style="font-size:110%;">I am a programmer studying 'EUX Datatekniker specializing in programming' at TEC. I was originally from Nepal, but I am now a citizen of Denmark. When I was younger, I didn’t have a strong interest in IT. However, as I grew older, I realized how much our world relies on this field. My interest developed and continued to grow as I began reflecting on the past, present, and future—and how rapidly civilization is evolving. I want to be part of that progress. But it doesn’t stop there: I yearn to help and assist, whether in small or big ways. I aspire to create something—simple or complex—that is useful. Whether it's for entertainment or part of a larger project that drives change, I want to contribute.</p>
-
-
     
-  </article>
-</section>
+    </div>
+    
+    </div>
+   
 
-<footer>
-  <p>Find me on social media?</p>
+  <!-- Contact Section -->
+  <div class="w3-padding-60 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me Right away</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-</footer>
+    <div class="w3-section">
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tanushreeshrestha@gmail.com"; target="_blank" class="underline-link" style="font-size: 20px;">My Gmail</a>
+      
+    </div><br>
+
+  </div>
+
+<!-- END PAGE CONTENT -->
+</div>
 
 </body>
 </html>
